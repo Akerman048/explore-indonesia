@@ -45,9 +45,9 @@ const Slider: FC<SliderProps> = ({ images }) => {
 
   return (
     <div className={s.slider}>
-      <button className={s.button} onClick={goToPrev}>
-        <IoIosArrowBack />
-      </button>
+      
+        <IoIosArrowBack className={s.button} onClick={goToPrev} />
+      
       <div className={s.sliderWrapper}>
         <div
           className={s.sliderTrack}
@@ -60,9 +60,9 @@ const Slider: FC<SliderProps> = ({ images }) => {
           ))}
         </div>
       </div>
-      <button className={s.button} onClick={goToNext}>
-        <IoIosArrowForward />
-      </button>
+      
+        <IoIosArrowForward className={s.button} onClick={goToNext}/>
+      
     </div>
   );
 };
