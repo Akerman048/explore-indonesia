@@ -1,0 +1,140 @@
+.videos {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../images/background/videosBg.jpg");
+  position: relative;
+  /* height: 700px; */
+  margin: 0px -15px;
+  padding: clamp(60px, 2.5vw, 100px) clamp(30px, 2.5vw, 100px);
+}
+
+.videos::after {
+  content: "";
+  position: absolute;
+  background: #010a20af;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 42px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mainVideo {
+  display: flex;
+  width: 1100px;
+  height: 550px;
+}
+
+.items {
+  display: flex;
+  gap: 80px;
+}
+
+.item {
+  display: flex;
+  max-width: 45%;
+  gap: 40px;
+}
+
+.smallVideo {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 30%;
+  text-align: left;
+  color: #fff;
+}
+
+.itemTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.itemText {
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.7;
+}
+@media screen and (max-width: 1300px) {
+  .items {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .item {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .smallVideo {
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .infoWrapper{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    max-width: 1100px;
+    width: 100%;
+  }
+
+  .mainVideo {
+    display: flex;
+    max-width: 100%;
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainVideo {
+    display: flex;
+    width: 100%;
+    max-height: 250px;
+  }
+
+  .item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .smallVideo {
+    max-width: 80%;
+    width: 100%;
+  }
+
+  .infoWrapper{
+    max-width: 80%;
+  }
+}

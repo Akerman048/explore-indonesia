@@ -1,0 +1,18 @@
+.sliderBlock{
+    background: url('../../images//background/sliderBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: clamp(2060px, 10vh, 2200px);
+    margin: 0px -15px;
+    padding-top: 125px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 50px;
+}

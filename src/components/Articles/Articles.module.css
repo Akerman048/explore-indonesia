@@ -1,0 +1,110 @@
+.articles {
+  margin: 0px -15px 0px -15px;
+  
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.articleBg{
+  padding: 185px 0px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.articleBg::after {
+  content: '';
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom,#010A20, #010a20b4, #010A20 ); /* Напівпрозорий червоний колір */
+  z-index: 1; 
+  
+}
+
+.article {
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  gap: 130px;
+  z-index: 2;
+}
+
+.img {
+  max-width: 630px;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 480px;
+  text-align: left;
+  z-index: 2;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+}
+
+.text {
+  line-height: 30px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.link {
+  max-width: 180px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .article {
+    flex-direction: column;
+  }
+
+  .img {
+    order: -1;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .articleBg{
+    padding: 40px 0px;
+  }
+
+  .article{
+    gap: 40px;
+  }
+  .link {
+    max-width: 100vw;
+  }
+
+  .link button{
+    width: 100%;
+  }
+
+
+}

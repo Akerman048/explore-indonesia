@@ -1,0 +1,77 @@
+.about {
+  max-width: 100%;
+  margin: 50px 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+.hero {
+  background-image: url("../../images/aboutUs/aboutUs.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: 50% 40%;
+  margin: 0 -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 66px;
+}
+
+.hero h2 {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.text {
+  text-align: start;
+}
+
+.quote {
+  font-size: 38px;
+}
+
+.imgWrap {
+  max-width: 100%;
+}
+
+.img {
+  width: 100%;
+}
+
+.link {
+  max-width: 100%;
+}
+
+.link button {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    width: 100%;
+    height: 400px;
+
+    font-size: 56px;
+  }
+}

@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  gap: 65px;
+  position: ab;
+  z-index: 11000;
+}
+
+
+.links {
+  display: flex;
+  color: #DD2242;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+ 
+}
+
+@media screen and (max-width: 960px) {
+  
+.links {
+  display: none;
+  
+}
+
+}
+
+
+
+.link{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  transition: .3s ease;
+}
+
+.link:hover{
+  color:#DD2242;
+}

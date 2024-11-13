@@ -1,0 +1,27 @@
+.galleryBlock{
+    background-color: #fff;
+    margin: 0px -15px 0px -15px;
+    padding: clamp(80px, 2vw, 40px) clamp(15px, 1vw, 20px);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.title{
+font-size: 60px;
+font-weight: 700;
+letter-spacing: 8px;
+margin-bottom: 35px;
+}
+
+.text{
+max-width: 750px;
+margin-bottom: 70px;
+line-height: 30px;
+color: #6F7787;
+
+}

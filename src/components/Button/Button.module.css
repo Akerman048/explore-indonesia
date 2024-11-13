@@ -1,0 +1,20 @@
+.btn {
+  display: block;
+  cursor: pointer;
+ border: none;
+font-weight: 700;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  border-radius: 25px;
+  background: rgb(221, 34, 66);
+  --hover-bgc: #ffffff;
+  --hover-color: #dd2242;
+}
+
+
+
+.btn:hover {
+  color: rgb(221, 34, 66);
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+}
