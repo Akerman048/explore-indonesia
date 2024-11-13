@@ -61,3 +61,9 @@
   text-align: start;
   color: #4c4f56;
 }
+
+@media screen and (max-width: 825px) {
+  .tourCard {
+    display: block;
+  }
+}
