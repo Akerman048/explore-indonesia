@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import s from "./RootLayout.module.css";
 import Burger from "../components/Burger/Burger";
 import Footer from "../components/Footer/Footer";
-import logoName from "../../public/images/logoName.png";
-import logoPicture from "../../public/images/logoPicture.png"
+import logoName from "../images/logo/logoName.png";
+import logoPicture from "../images/logo/logoPicture.png"
 
 
 

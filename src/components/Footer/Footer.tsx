@@ -5,9 +5,8 @@ import Navigation from "../Navigation/Navigation";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
-
-const logoName = "/images/logoName.png";
-const logoPicture = "/images/logoPicture.png";
+import logoName from "../../images/logo/logoName.png";
+import logoPicture from "../../images/logo/logoPicture.png";
 
 const Footer: FC = () => {
   return (
