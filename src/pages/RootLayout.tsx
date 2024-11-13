@@ -6,9 +6,10 @@ import { Link } from "react-router-dom";
 import s from "./RootLayout.module.css";
 import Burger from "../components/Burger/Burger";
 import Footer from "../components/Footer/Footer";
+import logoName from "../../public/images/logoName.png";
+import logoPicture from "../../public/images/logoPicture.png"
 
-const logoName = "/images/logoName.png";
-const logoPicture = "/images/logoPicture.png";
+
 
 const RootLayout: FC = () => {
   const [burger, setBurger] = useState<boolean>(false);
