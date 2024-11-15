@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url("./../../images/background/heroBg.png");
+  background-image: url("./../../images/background/heroBg.png") !important;
   width: 100%;
   min-height: 1080px;
   display: flex;
