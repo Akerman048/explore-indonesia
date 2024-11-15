@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/explore-indonesia/static/css/main.4718f1ee.css",
-    "main.js": "/explore-indonesia/static/js/main.4fb20c30.js",
+    "main.css": "/explore-indonesia/static/css/main.b61fbb26.css",
+    "main.js": "/explore-indonesia/static/js/main.d38aadb5.js",
     "reactPlayerYouTube.js": "/explore-indonesia/static/js/reactPlayerYouTube.c14725a3.chunk.js",
     "reactPlayerSoundCloud.js": "/explore-indonesia/static/js/reactPlayerSoundCloud.fdad8b73.chunk.js",
     "reactPlayerVimeo.js": "/explore-indonesia/static/js/reactPlayerVimeo.572aa033.chunk.js",
@@ -42,8 +42,8 @@
     "static/media/13.jpg": "/explore-indonesia/static/media/13.550fa8815669c86bd95a.jpg",
     "static/media/9.jpg": "/explore-indonesia/static/media/9.67c077a2889356a8e4a2.jpg",
     "index.html": "/explore-indonesia/index.html",
-    "main.4718f1ee.css.map": "/explore-indonesia/static/css/main.4718f1ee.css.map",
-    "main.4fb20c30.js.map": "/explore-indonesia/static/js/main.4fb20c30.js.map",
+    "main.b61fbb26.css.map": "/explore-indonesia/static/css/main.b61fbb26.css.map",
+    "main.d38aadb5.js.map": "/explore-indonesia/static/js/main.d38aadb5.js.map",
     "reactPlayerYouTube.c14725a3.chunk.js.map": "/explore-indonesia/static/js/reactPlayerYouTube.c14725a3.chunk.js.map",
     "reactPlayerSoundCloud.fdad8b73.chunk.js.map": "/explore-indonesia/static/js/reactPlayerSoundCloud.fdad8b73.chunk.js.map",
     "reactPlayerVimeo.572aa033.chunk.js.map": "/explore-indonesia/static/js/reactPlayerVimeo.572aa033.chunk.js.map",
@@ -60,7 +60,7 @@
     "reactPlayerPreview.ef8c9828.chunk.js.map": "/explore-indonesia/static/js/reactPlayerPreview.ef8c9828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4718f1ee.css",
-    "static/js/main.4fb20c30.js"
+    "static/css/main.b61fbb26.css",
+    "static/js/main.d38aadb5.js"
   ]
 }
