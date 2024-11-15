@@ -8,6 +8,25 @@
   width: 100%;
 }
 
+
+.arrowUp{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+color:  #dd2242;
+border-radius: 50px;
+font-size: 42px;
+z-index: 10000;
+width: 3rem;
+height: 3rem;
+cursor: pointer;
+transition: all ease .2s;
+}
+
+.arrowUp:hover{
+  color: #dd6579;
+}
+
 .main {
   margin-top: 99px;
   flex: 1;
