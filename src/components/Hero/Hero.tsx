@@ -6,7 +6,7 @@ import Video from "../Video/Video";
 import { heroVideo } from "../../data/links";
 
 const Hero: FC = () => {
-  const buttonStyles = {
+  const buttonStyles: React.CSSProperties = {
     padding: "18px 64px",
     fontSize: "20px",
   };

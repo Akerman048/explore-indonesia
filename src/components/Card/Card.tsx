@@ -9,7 +9,7 @@ interface TourProps {
   id: number;
 }
 
-const buttonStyles = {
+const buttonStyles: React.CSSProperties = {
   padding: "10px 22px",
   fontSize: "18px",
 };
@@ -17,7 +17,7 @@ const buttonStyles = {
 const Card: FC<TourProps> = ({ tour, id }) => {
   const navigate = useNavigate();
 
-  const handleClick = () => {
+  const handleClick = (): void => {
     navigate(`/destinations/${tour.id}`);
   };
 

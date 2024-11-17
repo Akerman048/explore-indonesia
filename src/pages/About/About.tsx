@@ -5,7 +5,7 @@ import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
-  const buttonStyles = {
+  const buttonStyles: React.CSSProperties = {
     padding: "18px 64px",
     fontSize: "20px",
     width: "100%",

@@ -12,9 +12,9 @@ import { IoIosArrowDropupCircle } from "react-icons/io";
 
 const RootLayout: FC = () => {
   const [burger, setBurger] = useState<boolean>(false);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState<boolean>(false);
 
-  const toggleVisibility = () => {
+  const toggleVisibility = (): void => {
     if (window.scrollY > 300) {
       setIsVisible(true);
     } else {
@@ -26,7 +26,7 @@ const RootLayout: FC = () => {
     setBurger((prevBurger) => !prevBurger);
   };
 
-  const scrollUp = () => {
+  const scrollUp = (): void => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",

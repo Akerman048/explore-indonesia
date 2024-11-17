@@ -4,7 +4,7 @@ import { Tour } from "../../types/Tour";
 import Button from "../../components/Button/Button";
 import { useLoaderData } from "react-router-dom";
 
-const buttonStyles = {
+const buttonStyles: React.CSSProperties = {
   padding: "10px 22px",
   fontSize: "18px",
 };

@@ -7,8 +7,8 @@ interface SliderProps {
 }
 
 const Slider: FC<SliderProps> = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [slidesToShow, setSlidesToShow] = useState(3);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [slidesToShow, setSlidesToShow] = useState<number>(3);
 
   useEffect(() => {
     const updateSlidesToShow = () => {

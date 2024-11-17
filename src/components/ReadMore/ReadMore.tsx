@@ -6,7 +6,7 @@ interface ReadMoreProps {
 }
 
 const ReadMore: FC<ReadMoreProps> = ({ text }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState<boolean>(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const toggleReadMore = () => {
